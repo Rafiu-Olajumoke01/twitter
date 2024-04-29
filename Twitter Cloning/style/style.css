@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+  width: 100vh;
+  color:black;
+}
+
+.container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 160px;
+  color: black;
+}
+
+/* First Section of the page starts here */
+
+.box1 {
+
+  height: 250vh;
+  padding: 0 10px;
+}
+
+.box1 .logo {
+  padding: 15px 0;
+}
+.box1 i {
+  color: black;
+  font-size: 18pt;
+}
+
+.box1 .homeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  padding: 13px 0;
+}
+
+.box1 .homeIcon p {
+  color: black;
+  font-size: 14pt;
+  font-weight: 500;
+  padding-left: 25px;
+}
+
+.posting {
+  padding: 25px 0;
+}
+.postLink {
+  padding: 15px 90px;
+  border-radius: 45px;
+  border: none;
+  background-color: #55acee;
+  color: black;
+  text-decoration: none;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.box1 .userAltSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.userAltSection .imageContainer img {
+  width: 60px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.userAltSection .acctName .displayname {
+  font-weight: 900;
+  font-size: 10pt;
+}
+
+.userAltSection .acctName .username {
+  font-size: 9pt;
+  color: black;
+  padding-top: 2px;
+}
+
+.userAltSection .imageContainer i {
+  font-size: 5pt;
+}
+
+/* Section of the Page start here */
+.box2 {
+ 
+  height: 250vh;
+  /* width: 100%; */
+}
+
+.box2 .headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 15px;
+  
+}
+
+.box2 .postCreationSection .postSection {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.box2 .postCreationSection .postSection img {
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.box2 .postCreationSection .postSection textarea {
+  background-color: #3b3b3b00;
+  border: none;
+  outline: none;
+  color: black;
+  width: 100%;
+  /* resize: none; */
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.box2 .iconsFunctions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.box2 .iconsFunctions .icons i {
+  padding-right: 15px;
+  font-size: 12pt;
+  color: #55acee;
+  padding: 10px 10px;
+}
+
+.box2 .iconsFunctions a {
+  color: #fff;
+  background-color: #55acee;
+  padding: 9px 15px;
+  border-radius: 45px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 10pt;
+}
+
+.box2 .contentInfo {
+  padding: 30px;
+}
+
+.box2 .content .contentHeader .profileInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 30px; */
+}
+
+.box2 .content .contentHeader .profileInfo img {
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.box2 .contentReaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-bottom: 1px solid #fff;
+}
+/* Section for the Subscription and Addition Usage Statts here  */
+.box3 {
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.box3 .search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 25px;
+  border: 5px;
+ 
+  color: #f1f1f1;
+}
+
+.box3 input[type="text"] {
+  background-color: #4e4c4c00wh;
+  border: none;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 5px 25px;
+}
+
+.box3 input[type="text"]:focus {
+  background-color: #4e4c4c00;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.box3 .subPremium {
+  padding: 18px;
+  margin: 15px 0;
+  width: 50vh;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+
+.box3 .subPremium h3 {
+  font-weight: 700;
+  font-size: 16pt;
+  line-height: 1.9;
+}
+.box3 .subPremium p {
+  font-size: 12pt;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.box3 .subPremium a {
+  padding: 9px 15px;
+  border-radius: 45px;
+  border: none;
+  background-color: #55acee;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.box3 .trends {
+  padding: 15px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+}
+
+.box3 .trends h1 {
+  font-size: 16pt;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+
+.box3 .trends .trend .trendSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 5px 0; */
+}
+
+.box3 .trends .trend .trendSection small {
+  color: #8a8a8d;
+  padding-bottom: 10px;
+}
+
+.box3 .trends .trend .trendSection i {
+  color: #8a8a8d;
+}
+
+.box3 .trends .trend p {
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+
+.box3 .trends .trend small {
+  color: #8a8a8d;
+}
+
+.box3 .trends a {
+  margin: 15px 0;
+  color: #55acee;
+  text-decoration: none;
+}
+
+.box3 .whoToFollow {
+  padding: 15px;
+  margin: 15px 0;
+  width: 50vh;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+
+.box3 .whoToFollow .followProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box3 .whoToFollow .followProfile a {
+  color: #3b3b3b;
+  background-color: #fff;
+  padding: 9px 15px;
+  border-radius: 45px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 10pt;
+}
+
+.box3 .whoToFollow .followProfile img {
+  width: 60px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.box3 .whoToFollow .followProfile .acctName .displayname {
+  font-weight: 900;
+  font-size: 10pt;
+}
+
+.box3 .whoToFollow .followProfile .acctName .username {
+  font-size: 9pt;
+  color: #b4b4b4;
+  padding-top: 2px;
+}
+
+.whoToFollow .followProfile a {
+  margin: 15px 0;
+  color: #55acee;
+  text-decoration: none;
+}
+
+.box3 .whoToFollow a {
+  color: #55acee;
+  text-decoration: none;
+}
+
+.box3 .extraLinks a {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+
+@media(min-width: 576px){
+  
+}
